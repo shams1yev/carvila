@@ -1,0 +1,128 @@
+@media only screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+        height: 60%;
+    }
+    .navbar a{
+        display: none;
+   }
+   .container{
+    width: 80%;
+   }
+   .header .banner p{
+    margin-top: 10rem;
+    margin-left: 10px;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+}
+.newest .newest__content img{
+    width: 80%;
+}
+.newest .newest__content h3{
+    opacity: 0.8;
+    font-size: 2rem;
+}
+.navbar i{
+    color: #fff;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+.newest .newest__content .item h5{
+    width: 80%;
+}
+.header .banner h1{
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    width: 80%;
+    color: #fff;
+    position: absolute;
+}
+
+.header .banner button{
+    margin-top: 13rem;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10rem;
+    padding: 5px 50px;
+    font-family: var(--lato);
+}
+.largest .largest__content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.newest .title{
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 60rem;
+}
+.newest .newest__content{
+    display: grid;
+    gap: 3rem;
+    position: absolute;
+    grid-template-columns: 1fr;
+    margin-top: 75rem;
+}
+.newest .newest__content .item button{
+    padding: 15px 65px;
+    background-color: #4146FA;
+    border: 0;
+    width: 50%;
+    margin-right: 20rem;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.featured .featured__content{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+}
+.featured .title{
+    text-align: center;
+    margin-top: 80rem;
+}
+.featured .featured__contact{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+}
+.client .client__content{
+    display: grid;
+    gap: 1.3rem;
+    grid-template-columns:1fr;
+}
+.client .title{
+    text-align: center;
+    margin-top: 210rem;
+}
+.footer .footer__contact{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+.footer .footer__contact{
+   margin-top: 50rem;
+
+}
+.footer .footer__contact .item{
+    margin-top: 1rem;
+}
+.footer {
+    width: 100%;
+    background-color: #2A2D54;
+    height: 220vh;
+}
+.footer .footer__contact .item2{
+    margin-top: 1rem; 
+}
+.footer .footer__contact .item3{
+    margin-top: 1rem;  
+ 
+}
+.footer .footer__contact .item4{
+    margin-top: 1rem; 
+    line-height: 2;  
+}
+}
